@@ -11,12 +11,12 @@ const promesa = new Promise( (resolve, reject) => {
 });
 
 
-// si la promesa se cumple
+// si la promesa se cumple usa then
 promesa.then(()=>{
     alert('Exito');
 });
 
-//si la promesa no se cumple
+//si la promesa no se cumple usa catch
 promesa.catch(()=>{
     alert('No exitosa');
 });
